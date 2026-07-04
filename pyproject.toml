@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "matchbook"
+version = "0.1.0"
+description = "A miniature trading venue: deterministic matching engine, pre-trade risk gate, double-entry ledger, and reconciliation as a pure event-sourced core."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Ashish Mehta" }]
+keywords = ["matching-engine", "order-book", "ledger", "trading", "event-sourcing"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Office/Business :: Financial",
+  "Typing :: Typed",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/ashmht/matchbook"
+Repository = "https://github.com/ashmht/matchbook"
+
+[tool.setuptools]
+packages = ["core", "strategy", "sim", "benchmarks"]
