@@ -1,5 +1,7 @@
 # matchbook
 
+[![ci](https://github.com/ashmht/matchbook/actions/workflows/ci.yml/badge.svg)](https://github.com/ashmht/matchbook/actions/workflows/ci.yml)
+
 A miniature trading venue built with the discipline of a payments system: a
 price-time-priority matching engine, a pre-trade risk gate, a double-entry
 post-trade ledger, and independent reconciliation — all as a pure,
